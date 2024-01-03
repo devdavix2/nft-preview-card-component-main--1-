@@ -1,0 +1,123 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+  @media screen and (max-width: 780px) {
+
+
+
+    body{
+        background:  hsl(217, 54%, 11%);
+        height: 100vh;
+        font-family: "Outifit";
+    }
+
+  
+
+
+    .sub_card{
+        background:hsl(216, 50%, 16%) ;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        
+    }
+
+
+    .card_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .card_img img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .card_details{
+        padding: 10px;
+        color: hsl(0, 0%, 100%);
+        font-family: "Outfit";
+    }
+
+    .card_details p{
+        color:  hsl(215, 51%, 70%);
+        line-height: 30px;
+        margin-bottom: 0px;
+
+    }
+
+    .card_info{
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding: 10px;
+        gap: 50px;
+        
+  
+        color: hsl(0, 0%, 100%);
+        font-family: "Outfit";
+    }
+    .card_info img{
+        width: auto;
+        height: 20px;
+        margin-left: 5px;
+    }
+
+    .card-info-p{
+        
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 3px;
+        
+        
+    }
+
+    .card_author{
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding: 10px;
+        gap:10px;
+        color: hsl(0, 0%, 100%);
+        font-family: "Outfit";
+      
+
+    }
+  
+    .card_author img{
+        width: auto;
+        height: 50px;  
+        border: solid 1px hsl(0, 0%, 100%) ;
+        border-radius: 50%;    
+
+    }
+    .hr {
+        background-color: hsl(215, 32%, 27%);
+        height: 2px;
+        width: 100%; 
+        margin: 10px 0; 
+        border: none;
+    }
+    
+
+ 
+    .attribution{
+        color: hsl(0, 0%, 100%);
+        font-family: "Outfit";
+        text-align: center;
+    }
+
+    
+  
+
+
+
+
+
+  
+}
